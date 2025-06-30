@@ -3,10 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
+=======
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

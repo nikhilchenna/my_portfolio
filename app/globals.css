@@ -28,11 +28,19 @@
 
   .dark {
     --background: 222.2 84% 4.9%;
+<<<<<<< HEAD
     --foreground: 0 0% 100%;
     --card: 222.2 84% 4.9%;
     --card-foreground: 0 0% 100%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 0 0% 100%;
+=======
+    --foreground: 0 0% 0%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 0%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 0%;
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
     --primary: 173 70% 50%;
     --primary-foreground: 222.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
@@ -86,6 +94,7 @@ html {
   background: linear-gradient(135deg, hsl(173, 80%, 40%), hsl(190, 80%, 40%));
   color: white;
   border: none;
+<<<<<<< HEAD
   animation: fadeIn 0.3s ease-in-out;
 }
 
@@ -98,6 +107,8 @@ html {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
   }
+=======
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
 }
 
 .dark .scroll-to-top {
@@ -147,7 +158,11 @@ html {
   -webkit-backdrop-filter: blur(8px);
 }
 
+<<<<<<< HEAD
 /* Light mode - black text */
+=======
+/* Force black text and buttons */
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
 body,
 h1,
 h2,
@@ -163,7 +178,10 @@ a {
   color: black !important;
 }
 
+<<<<<<< HEAD
 /* Dark mode - white text */
+=======
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
 .dark body,
 .dark h1,
 .dark h2,
@@ -176,16 +194,24 @@ a {
 .dark div,
 .dark button,
 .dark a {
+<<<<<<< HEAD
   color: white !important;
 }
 
 /* Button specific overrides for light mode */
+=======
+  color: black !important;
+}
+
+/* Button specific overrides */
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
 button,
 .button,
 [role="button"] {
   color: black !important;
 }
 
+<<<<<<< HEAD
 /* Button specific overrides for dark mode */
 .dark button,
 .dark .button,
@@ -194,6 +220,9 @@ button,
 }
 
 /* Navigation links for light mode */
+=======
+/* Navigation links */
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
 nav button,
 nav a {
   color: black !important;
@@ -203,6 +232,7 @@ nav button:hover,
 nav a:hover {
   color: hsl(173, 80%, 40%) !important;
 }
+<<<<<<< HEAD
 
 /* Navigation links for dark mode */
 .dark nav button,
@@ -223,3 +253,5 @@ nav a:hover {
 .dark .text-muted-foreground {
   color: #ccc !important;
 }
+=======
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8

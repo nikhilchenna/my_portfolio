@@ -1,5 +1,6 @@
 "use client"
 
+<<<<<<< HEAD
 import { useState, useEffect } from "react"
 import { ArrowUp } from "lucide-react"
 
@@ -25,6 +26,13 @@ export default function ScrollToTop() {
     // Clean up event listener
     return () => window.removeEventListener("scroll", toggleVisibility)
   }, [])
+=======
+import { useState } from "react"
+import { ArrowUp } from "lucide-react"
+
+export default function ScrollToTop() {
+  const [isVisible, setIsVisible] = useState(true) // Always visible
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -34,6 +42,7 @@ export default function ScrollToTop() {
   }
 
   return (
+<<<<<<< HEAD
     <>
       {isVisible && (
         <button onClick={scrollToTop} className="scroll-to-top" aria-label="Scroll to top">
@@ -41,5 +50,10 @@ export default function ScrollToTop() {
         </button>
       )}
     </>
+=======
+    <button onClick={scrollToTop} className="scroll-to-top" aria-label="Scroll to top">
+      <ArrowUp className="h-5 w-5" />
+    </button>
+>>>>>>> f661e25903a3894d5d1dd442d160fb6eb5c164f8
   )
 }
